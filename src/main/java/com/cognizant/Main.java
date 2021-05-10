@@ -1,10 +1,15 @@
 package com.cognizant;
 
+import com.cognizant.model.Person;
+
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World!!");
+		Person p=new Person();
+		p.setName("Rahul Bansal");
+		System.out.println(p.getName());
+		
 	}
 
 }
