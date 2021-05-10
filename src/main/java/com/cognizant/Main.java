@@ -9,6 +9,7 @@ public class Main {
 		Person p=new Person();
 		p.setName("Rahul Bansal");
 		System.out.println(p.getName());
+		System.out.println("\nLine by swaraj");
 		
 	}
 
